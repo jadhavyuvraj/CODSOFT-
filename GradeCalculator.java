@@ -16,7 +16,7 @@ public class GradeCalculator {
             int marks = sc.nextInt();
             if (marks < 0 || marks > 100) {
                 System.out.println("Marks should be between 0 and 100. Please re-enter.");
-                i--; // Decrement i to repeat the input for this subject
+                i--;
                 continue;
             }
             totalMarks += marks;
